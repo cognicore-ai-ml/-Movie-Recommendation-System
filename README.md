@@ -49,20 +49,9 @@ Feature Engineering: Extracting relevant tags from genres, cast, and plot summar
 
 Similarity Calculation: Applying the cosine similarity formula to measure the distance between movie vectors:
 
-
-
-
-
-
-
-
+$$
 \text{similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
-
-
-
-
-
-
+$$
 
 
 # 📄 License #
