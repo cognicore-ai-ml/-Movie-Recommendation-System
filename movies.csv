@@ -1,0 +1,603 @@
+movie_id,title,tags
+1,The Dark Knight,action dc comics superhero batman dark gritty trilogy christian bale christopher nolan
+2,Interstellar,sci-fi space time travel christopher nolan space exploration matthew mcconaughey anne hathaway
+3,Batman Begins,action dc comics superhero batman origin christian bale christopher nolan liam neeson
+4,Inception,sci-fi dreams heist mind-bending christopher nolan leonardo dicaprio joseph gordon-levitt
+5,The Martian,sci-fi space mars survival matt damon space exploration ridley scott jessica chastain
+6,The Prestige,drama mystery magic illusion christopher nolan christian bale hugh jackman scarlett johansson
+7,The Avengers,action marvel comics superhero iron man captain america thor hulk joss whedon robert downey jr
+8,Iron Man,action marvel comics superhero iron man origin robert downey jr jon favreau gwyneth paltrow
+9,Spiderman No Way Home,action marvel comics superhero spider-man multiverse tom holland zendaya benedict cumberbatch
+10,The Matrix,sci-fi cyberpunk simulation action keanu reeves lana wachowski wachowskis laurence fishburne
+11,Avatar,sci-fi alien planet pandora action james cameron sam worthington zoe saldana
+12,Titanic,romance drama ship disaster leonardo dicaprio kate winslet james cameron
+13,Gladiator,action historical drama rome ridley scott russell crowe joaquin phoenix
+14,Pulp Fiction,crime drama nonlinear quentin tarantino john travolta uma thurman samuel l jackson
+15,The Godfather,crime drama mafia marlon brando al pacino francis ford coppola
+16,Spirited Away,animation fantasy anime studio ghibli hayao miyazaki chihiro haku
+17,Toy Story,animation family pixar toys woody buzz lightyear tom hanks tim allen
+18,Finding Nemo,animation family pixar ocean fish marlin dory ellen degeneres
+19,The Lion King,animation family disney africa simba mufasa scar johnny nolan
+20,Whiplash,drama music jazz drumming miles teller jk simmons damien chazelle
+21,The Dark Knight Rises,action dc comics superhero batman bane tom hardy christian bale christopher nolan
+22,Oppenheimer,biography drama history atomic bomb physics cillian murphy robert downey jr christopher nolan
+23,Dune,sci-fi space desert planet paul atreides denis villeneuve timothee chalamet zendaya
+24,Dune Part Two,sci-fi space war desert paul atreides denis villeneuve timothee chalamet zendaya rebecca ferguson
+25,Blade Runner 2049,sci-fi cyberpunk replicant dystopia ryan gosling harrison ford denis villeneuve
+26,Arrival,sci-fi aliens language communication amy adams jeremy renner denis villeneuve
+27,Sicario,crime action thriller drug cartel emily blunt benicio del toro denis villeneuve
+28,Zodiac,mystery thriller crime serial killer jake gyllenhaal robert downey jr david fincher
+29,Se7en,mystery thriller crime serial killer brad pitt morgan freeman david fincher
+30,Fight Club,drama psychological twist separation brad pitt edward norton david fincher
+31,The Social Network,biography drama facebook tech mark zuckerberg jesse eisenberg david fincher
+32,Gone Girl,mystery thriller drama marriage twist ben affleck rosamund pike david fincher
+33,Django Unchained,western action drama slavery revenge jamie foxx christoph waltz quentin tarantino
+34,Inglourious Basterds,war action drama world war ii brad pitt christoph waltz quentin tarantino
+35,Kill Bill Vol 1,action crime revenge martial arts uma thurman quentin tarantino
+36,Once Upon a Time in Hollywood,comedy drama nostalgia leonardo dicaprio brad pitt margot robbie quentin tarantino
+37,The Wolf of Wall Street,biography comedy crime stocks money leonardo dicaprio jonah hill martin scorsese
+38,Goodfellas,crime drama mafia raye liotta robert de niro joe pesci martin scorsese
+39,The Departed,crime drama thriller undercover cop leonardo dicaprio matt damon jack nicholson martin scorsese
+40,Shutter Island,mystery thriller psychological asylum leonardo dicaprio mark ruffalo martin scorsese
+41,The Godfather Part II,crime drama mafia ryan gosling al pacino robert de niro francis ford coppola
+42,Apocalypse Now,war drama vietnam harrison ford marlon brando francis ford coppola
+43,Star Wars A New Hope,sci-fi space opera jedi empire george lucas mark hamill harrison ford
+44,Star Wars The Empire Strikes Back,sci-fi space opera jedi darth vader mark hamill harrison ford carrie fisher
+45,Star Wars Return of the Jedi,sci-fi space opera jedi death star george lucas mark hamill harrison ford
+46,Jurassic Park,sci-fi adventure dinosaurs theme park steven spielberg sam neill laura dern
+47,Schindlers List,biography drama history holocaust world war ii steven spielberg liam neeson
+48,Saving Private Ryan,war drama world war ii d-day steven spielberg tom hanks matt damon
+49,Catch Me If You Can,biography crime drama con artist leonardo dicaprio tom hanks steven spielberg
+50,Raiders of the Lost Ark,adventure action archeology indiana jones harrison ford steven spielberg
+51,The Shawshank Redemption,drama prison hope friendship morgan freeman tim robbins frank darabont
+52,Forrest Gump,drama romance history tom hanks robin wright robert zemeckis
+53,Back to the Future,sci-fi comedy time travel michael j fox christopher lloyd robert zemeckis
+54,The Green Mile,content drama prison supernatural stephen king tom hanks michael clarke duncan
+55,The Silence of the Lambs,horror thriller crime hannibal lecter jodie foster anthony hopkins jonathan demme
+56,Gladiator II,action historical drama rome war paul mescal pedro pascal ridley scott
+57,Alien,horror sci-fi space monster spaceship sigourney weaver ridley scott
+58,Blade Runner,sci-fi cyberpunk dystopia replicant harrison ford ridley scott
+59,Prometheus,sci-fi space alien origin spaceship ryan gosling ridley scott
+60,The Lord of the Rings The Fellowship of the Ring,fantasy adventure quest ring frodo peter jackson elijah wood ian mckellen
+61,The Lord of the Rings The Two Towers,fantasy adventure war ring battle peter jackson elijah wood viggo mortensen
+62,The Lord of the Rings The Return of the King,fantasy adventure war king ring peter jackson elijah wood viggo mortensen
+63,The Hobbit An Unexpected Journey,fantasy adventure quest dwarfs bilbo peter jackson martin freeman
+64,The Grand Budapest Hotel,comedy drama hotel quirks wes anderson ralph fiennes saoirse ronan
+65,Fantastic Mr Fox,animation comedy stop-motion animals wes anderson george clooney
+66,Parasite,thriller drama comedy dark class-conflict bong joon ho song kang ho
+67,Snowpiercer,sci-fi action dystopia train ice bong joon ho chris evans
+68,Mad Max Fury Road,action sci-fi post-apocalyptic desert car-chase tom hardy charlize theron george miller
+69,The Revenant,adventure biography drama survival leonardo dicaprio tom hardy alejandro inarritu
+70,Birdman,comedy drama theater single-take michael keaton edward norton alejandro inarritu
+71,La La Land,romance drama musical hollywood ryan gosling emma stone damien chazelle
+72,Spider-Man Into the Spider-Verse,animation action superhero comic miles morales multiverse shameik moore
+73,Spider-Man Across the Spider-Verse,animation action superhero comic miles morales multiverse shameik moore hailee steinfeld
+74,Black Panther,action marvel comics superhero wakanda chadwick boseman michael b jordan ryan coogler
+75,Captain America The Winter Soldier,action marvel comics superhero spy chris evans scarlett johansson russo brothers
+76,Guardians of the Galaxy,sci-fi action space comedy marvel comics chris pratt zoe saldana james gunn
+77,Joker,drama crime psychological madness dc comics joaquin phoenix robert de niro todd phillips
+78,The Batman,action crime mystery dc comics superhero robert pattinson zoe kravitz matt reeves
+79,Logan,action superhero comic wolverine x-men hugh jackman patrick stewart james mangold
+80,Deadpool,action comedy superhero comic ryan reynolds morena baccarin tim miller
+81,Everything Everywhere All at Once,sci-fi comedy action multiverse family michelle yeoh ke huy quan daniels
+82,Get Out,horror mystery thriller racism jordan peele daniel kaluuya allison williams
+83,Us,horror mystery thriller doppelganger jordan peele lupita nyongo winston duke
+84,Nope,horror sci-fi ufo alien jordan peele daniel kaluuya keke palmer
+85,Knives Out,mystery comedy crime whodunit daniel craig chris evans rian johnson
+86,Glass Onion,mystery comedy crime whodunit daniel craig edward norton rian johnson
+87,Baby Driver,action crime music car-chase edgarth wright ansel elgort kevin spacey
+88,Shaun of the Dead,comedy horror zombie parody edgar wright simon pegg nick frost
+89,Hot Fuzz,comedy action buddy-cop edgar wright simon pegg nick frost
+90,The Truman Show,comedy drama simulation reality-tv jim carrey laura linney peter weir
+91,Eternal Sunshine of the Spotless Mind,romance sci-fi drama memory jim carrey kate winslet michel gondry
+92,No Country for Old Men,crime thriller western coen brothers javier bardem josh brolin
+93,Fargo,crime drama comedy snow coen brothers frances mcdormand william h macy
+94,The Big Lebowski,comedy crime bowling dude coen brothers jeff bridges john goodman
+95,Primal Fear,mystery thriller court crime richard gere edward norton gregory hoblit
+96,The Sixth Sense,mystery thriller supernatural ghost bruce willis haley joel osment m night shyamalan
+97,Signs,sci-fi thriller alien crop-circles mel gibson joaquin phoenix m night shyamalan
+98,Unbreakable,sci-fi thriller superhero comic bruce willis samuel l jackson m night shyamalan
+99,Split,thriller horror psychological multiple-personalities james mcavoy anya taylor-joy m night shyamalan
+100,Prisoners,mystery thriller crime kidnapping hugh jackman jake gyllenhaal denis villeneuve
+101,Nightcrawler,thriller crime journalism dark jake gyllenhaal rene russo dan gilroy
+102,Drive,action crime thriller stuntman ryan gosling carey mulligan nicolas winding refn
+103,Her,romance sci-fi ai love joaquin phoenix scarlett johansson spike jonze
+104,Ex Machina,sci-fi thriller robot ai domhnall gleeson oscar isaac alicia vikander alex garland
+105,Annihilation,sci-fi horror alien jungle natalie portman jennifer jason leigh alex garland
+106,A Quiet Place,horror sci-fi monsters sound survival john krasinski emily blunt
+107,Hereditary,horror mystery drama family curse ari aster toni collette alex wolff
+108,Midsommar,horror drama cult sweden daylight ari aster florence pugh jack reynor
+109,The Witch,horror mystery folk-tale witchcraft anya taylor-joy robert eggers
+110,The Lighthouse,horror drama mystery madness robert pattinson willem dafoe robert eggers
+111,Black Swan,drama thriller ballet psychological natalie portman mila kunis darren aronofsky
+112,Requiem for a Dream,drama addiction tragic jared leto jennifer connelly darren aronofsky
+113,Monsters Inc,animation family pixar monsters john goodman billy crystal pete docter
+114,Up,animation family pixar adventure house balloons pete docter ed asner
+115,Inside Out,animation family pixar emotions joy sadness pete docter amy poehler
+116,Coco,animation family pixar music mexico skeletons lee unkrich anthony gonzalez
+117,Wall-E,animation family pixar sci-fi space robot andrew stanton ben burtt
+118,The Incredibles,animation family superhero action pixar brad bird craig t nelson
+119,Ratatouille,animation family pixar cooking paris brad bird patton oswalt
+120,My Neighbor Totoro,animation fantasy anime studio ghibli forest hayao miyazaki
+121,Princess Mononoke,animation fantasy anime studio ghibli nature war hayao miyazaki
+122,Howls Moving Castle,animation fantasy anime studio ghibli magic hayao miyazaki chieko baisho
+123,Your Name,animation romance fantasy anime body-swap makoto shinkai ryunosuke kamiki
+124,Shrek,animation comedy family fairytale ogre mike myers eddie murphy andrew adamson
+125,Kung Fu Panda,animation action comedy martial arts jack black dustin hoffman john stevenson
+126,How to Train Your Dragon,animation action adventure dragons vikings jay baruchel gerard butler
+127,The Terminator,sci-fi action robot cyborg time travel arnold schwarzenegger james cameron
+128,Terminator 2 Judgment Day,sci-fi action robot cyborg war arnold schwarzenegger james cameron
+129,Die Hard,action thriller skyscraper terrorists bruce willis alan rickman john mctiernan
+130,Mad Max 2 The Road Warrior,action sci-fi post-apocalyptic desert mel gibson george miller
+131,Speed,action thriller bus bomb keanu reeves sandra bullock jan de bont
+132,The Bourne Identity,action thriller spy amnesia matt damon franka potente doug liman
+133,Mission Impossible Fallout,action thriller spy stunt tom cruise henry cavill christopher mcquarrie
+134,John Wick,action crime revenge assassin keanu reeves michael nyqvist chad stahelski
+135,Casino Royale,action thriller spy james bond daniel craig eva green martin campbell
+136,Skyfall,action thriller spy james bond daniel craig javier bardem sam mendes
+137,Heat,action crime drama heist robert de niro al pacino michael mann
+138,The Usual Suspects,crime mystery thriller twist keyser soze bryan singer kevin spacey
+139,Reservoir Dogs,crime thriller diamond heist quentin tarantino harvey keitel tim roth
+140,Scarface,crime drama mafia drugs al pacino michelle pfeiffer brian de palma
+141,Good Will Hunting,drama math psychology boston matt damon robin williams gus van sant
+142,Dead Poets Society,drama school poetry inspirational robin williams ethan hawke peter weir
+143,The Truman Show,drama comedy media paranoia jim carrey ed harris peter weir
+144,A Beautiful Mind,biography drama math schizophrenia russell crowe ed harris ron howard
+145,The King Speech,biography drama history king speech colin firth geoffrey rush tom hooper
+146,12 Years a Slave,biography drama history slavery steve mcqueen chiwetel ejiofor michael fassbender
+147,Spotlight,biography drama crime journalism mark ruffalo michael keaton tom mccarthy
+148,Green Book,biography comedy drama road-trip viggo mortensen mahershala ali peter farrelly
+149,Bohemian Rhapsody,biography drama music queen freddie mercury rami malek bryan singer
+150,Elvis,biography drama music rock-and-roll austin butler tom hanks baz luhrmann
+151,Superbad,comedy high-school friendship jonah hill michael cera greg mottola
+152,The Hangover,comedy vegas bachelor-party missing-person todd phillips bradley cooper zach galifianakis
+153,Step Brothers,comedy family adults man-child will ferrell john c reilly adam mckay
+154,Anchorman,comedy news 1970s will ferrell christina applegate adam mckay
+155,Zombieland,comedy horror zombie survival woody harrelson jesse eisenberg ruben fleischer
+156,Borat,comedy mockumentary satire sacha baron cohen larry charles
+157,The Notebook,romance drama ryan gosling rachel mcadams nick cassavetes
+158,Pride and Prejudice,romance drama period-piece keira knightley matthew macfadyen joe wright
+159,About Time,romance comedy sci-fi time travel domhnall gleeson rachel mcadams richard curtis
+160,500 Days of Summer,romance comedy drama non-linear joseph gordon-levitt zooey deschanel marc webb
+161,The Conjuring,horror mystery supernatural demon james wan patrick wilson vera farmiga
+162,Insidious,horror mystery supernatural astral-projection james wan patrick wilson rose byrne
+163,Sinister,horror mystery thriller cursed tapes ethan hawke scott derrickson
+164,It,horror supernatural clown stephen king bill skarsgard andy muschietti
+165,Get Out,horror mystery thriller social-commentary jordan peele daniel kaluuya
+166,Halloween,horror slasher serial killer michael myers john carpenter jamie lee curtis
+167,A Nightmare on Elm Street,horror slasher dreams freddy krueger wes craven robert englund
+168,Scream,horror slasher mystery parody ghostface wes craven neve campbell courtney cox
+169,The Texas Chain Saw Massacre,horror slasher chainsaw leatherface tobe hooper marilyn burns
+170,The Exorcist,horror supernatural demon possession william friedkin ellen burstyn max von sydow
+171,Barbie,comedy fantasy pastel feminism margot robbie ryan gosling greta gerwig
+172,Little Women,drama romance period-piece saoirse ronan emma watson greta gerwig
+173,Lady Bird,drama comedy coming-of-age saoirse ronan laurie metcalf greta gerwig
+174,Knives Out,mystery comedy whodunit daniel craig ana de armas rian johnson
+175,The Menu,thriller horror comedy cooking island anya taylor-joy ralph fiennes mark mylod
+176,Pearl,horror slasher madness 1918 mia goth ti west
+177,X,horror slasher 1970s movie-crew mia goth ti west
+178,MaXXXine,horror thriller slasher hollywood 1980s mia goth ti west
+179,Civil War,action thriller war dystopia alex garland kirsten dunst wagner moura
+180,Kingdom of the Planet of the Apes,sci-fi action apes future wes ball owen teague freya allan
+181,Poor Things,comedy sci-fi romance bizarre yorgos lanthimos emma stone mark ruffalo
+182,The Favorite,comedy drama history queen yorgos lanthimos olivia colman emma stone
+183,Parasite,thriller drama societal bong joon ho song kang ho
+184,The Zone of Interest,drama war history holocaust jonathan glazer christian friedel
+185,Anatomy of a Fall,mystery drama crime court justine triet sandra huller
+186,Past Lives,romance drama destiny childhood-sweethearts celine song greta lee teo yoo
+187,The Batman,action crime superhero dc comics robert pattinson matt reeves
+188,Top Gun Maverick,action drama jet aviation tom cruise miles teller joseph kosinski
+189,Avatar The Way of Water,sci-fi action ocean pandora james cameron sam worthington zoe saldana
+190,Dunkirk,war action history world war ii christopher nolan fionn whitehead tom hardy
+191,1917,war action drama world war i single-shot sam mendes george mckay dean-charles chapman
+192,Ford v Ferrari,biography action drama racing matt damon christian bale james mangold
+193,Jojo Rabbit,comedy drama war world war ii taika waititi roman griffin davis scarlett johansson
+194,Thor Ragnarok,action adventure comedy superhero marvel comics chris hemsworth tom hiddleston taika waititi
+195,Spider-Man Homecoming,action superhero comic marvel comics tom holland robert downey jr jon watts
+196,Spider-Man Far From Home,action superhero comic marvel comics tom holland zendaya jon watts
+197,Whiplash,drama music obsession jazz miles teller damien chazelle
+198,Babylon,drama comedy history hollywood brad pitt margot robbie damien chazelle
+199,La La Land,romance musical hollywood ryan gosling emma stone damien chazelle
+200,The IrishMan,crime drama biography mafia robert de niro al pacino martin scorsese
+movie_id,title,tags
+1,The Dark Knight,action dc comics superhero batman dark gritty trilogy christian bale christopher nolan
+2,Interstellar,sci-fi space time travel christopher nolan space exploration matthew mcconaughey anne hathaway
+3,Batman Begins,action dc comics superhero batman origin christian bale christopher nolan liam neeson
+4,Inception,sci-fi dreams heist mind-bending christopher nolan leonardo dicaprio joseph gordon-levitt
+5,The Martian,sci-fi space mars survival matt damon space exploration ridley scott jessica chastain
+6,The Prestige,drama mystery magic illusion christopher nolan christian bale hugh jackman scarlett johansson
+7,The Avengers,action marvel comics superhero iron man captain america thor hulk joss whedon robert downey jr
+8,Iron Man,action marvel comics superhero iron man origin robert downey jr jon favreau gwyneth paltrow
+9,Spiderman No Way Home,action marvel comics superhero spider-man multiverse tom holland zendaya benedict cumberbatch
+10,The Matrix,sci-fi cyberpunk simulation action keanu reeves lana wachowski wachowskis laurence fishburne
+11,Avatar,sci-fi alien planet pandora action james cameron sam worthington zoe saldana
+12,Titanic,romance drama ship disaster leonardo dicaprio kate winslet james cameron
+13,Gladiator,action historical drama rome ridley scott russell crowe joaquin phoenix
+14,Pulp Fiction,crime drama nonlinear quentin tarantino john travolta uma thurman samuel l jackson
+15,The Godfather,crime drama mafia marlon brando al pacino francis ford coppola
+16,Spirited Away,animation fantasy anime studio ghibli hayao miyazaki chihiro haku
+17,Toy Story,animation family pixar toys woody buzz lightyear tom hanks tim allen
+18,Finding Nemo,animation family pixar ocean fish marlin dory ellen degeneres
+19,The Lion King,animation family disney africa simba mufasa scar johnny nolan
+20,Whiplash,drama music jazz drumming miles teller jk simmons damien chazelle
+21,The Dark Knight Rises,action dc comics superhero batman bane tom hardy christian bale christopher nolan
+22,Oppenheimer,biography drama history atomic bomb physics cillian murphy robert downey jr christopher nolan
+23,Dune,sci-fi space desert planet paul atreides denis villeneuve timothee chalamet zendaya
+24,Dune Part Two,sci-fi space war desert paul atreides denis villeneuve timothee chalamet zendaya rebecca ferguson
+25,Blade Runner 2049,sci-fi cyberpunk replicant dystopia ryan gosling harrison ford denis villeneuve
+26,Arrival,sci-fi aliens language communication amy adams jeremy renner denis villeneuve
+27,Sicario,crime action thriller drug cartel emily blunt benicio del toro denis villeneuve
+28,Zodiac,mystery thriller crime serial killer jake gyllenhaal robert downey jr david fincher
+29,Se7en,mystery thriller crime serial killer brad pitt morgan freeman david fincher
+30,Fight Club,drama psychological twist separation brad pitt edward norton david fincher
+31,The Social Network,biography drama facebook tech mark zuckerberg jesse eisenberg david fincher
+32,Gone Girl,mystery thriller drama marriage twist ben affleck rosamund pike david fincher
+33,Django Unchained,western action drama slavery revenge jamie foxx christoph waltz quentin tarantino
+34,Inglourious Basterds,war action drama world war ii brad pitt christoph waltz quentin tarantino
+35,Kill Bill Vol 1,action crime revenge martial arts uma thurman quentin tarantino
+36,Once Upon a Time in Hollywood,comedy drama nostalgia leonardo dicaprio brad pitt margot robbie quentin tarantino
+37,The Wolf of Wall Street,biography comedy crime stocks money leonardo dicaprio jonah hill martin scorsese
+38,Goodfellas,crime drama mafia raye liotta robert de niro joe pesci martin scorsese
+39,The Departed,crime drama thriller undercover cop leonardo dicaprio matt damon jack nicholson martin scorsese
+40,Shutter Island,mystery thriller psychological asylum leonardo dicaprio mark ruffalo martin scorsese
+41,The Godfather Part II,crime drama mafia ryan gosling al pacino robert de niro francis ford coppola
+42,Apocalypse Now,war drama vietnam harrison ford marlon brando francis ford coppola
+43,Star Wars A New Hope,sci-fi space opera jedi empire george lucas mark hamill harrison ford
+44,Star Wars The Empire Strikes Back,sci-fi space opera jedi darth vader mark hamill harrison ford carrie fisher
+45,Star Wars Return of the Jedi,sci-fi space opera jedi death star george lucas mark hamill harrison ford
+46,Jurassic Park,sci-fi adventure dinosaurs theme park steven spielberg sam neill laura dern
+47,Schindlers List,biography drama history holocaust world war ii steven spielberg liam neeson
+48,Saving Private Ryan,war drama world war ii d-day steven spielberg tom hanks matt damon
+49,Catch Me If You Can,biography crime drama con artist leonardo dicaprio tom hanks steven spielberg
+50,Raiders of the Lost Ark,adventure action archeology indiana jones harrison ford steven spielberg
+51,The Shawshank Redemption,drama prison hope friendship morgan freeman tim robbins frank darabont
+52,Forrest Gump,drama romance history tom hanks robin wright robert zemeckis
+53,Back to the Future,sci-fi comedy time travel michael j fox christopher lloyd robert zemeckis
+54,The Green Mile,content drama prison supernatural stephen king tom hanks michael clarke duncan
+55,The Silence of the Lambs,horror thriller crime hannibal lecter jodie foster anthony hopkins jonathan demme
+56,Gladiator II,action historical drama rome war paul mescal pedro pascal ridley scott
+57,Alien,horror sci-fi space monster spaceship sigourney weaver ridley scott
+58,Blade Runner,sci-fi cyberpunk dystopia replicant harrison ford ridley scott
+59,Prometheus,sci-fi space alien origin spaceship ryan gosling ridley scott
+60,The Lord of the Rings The Fellowship of the Ring,fantasy adventure quest ring frodo peter jackson elijah wood ian mckellen
+61,The Lord of the Rings The Two Towers,fantasy adventure war ring battle peter jackson elijah wood viggo mortensen
+62,The Lord of the Rings The Return of the King,fantasy adventure war king ring peter jackson elijah wood viggo mortensen
+63,The Hobbit An Unexpected Journey,fantasy adventure quest dwarfs bilbo peter jackson martin freeman
+64,The Grand Budapest Hotel,comedy drama hotel quirks wes anderson ralph fiennes saoirse ronan
+65,Fantastic Mr Fox,animation comedy stop-motion animals wes anderson george clooney
+66,Parasite,thriller drama comedy dark class-conflict bong joon ho song kang ho
+67,Snowpiercer,sci-fi action dystopia train ice bong joon ho chris evans
+68,Mad Max Fury Road,action sci-fi post-apocalyptic desert car-chase tom hardy charlize theron george miller
+69,The Revenant,adventure biography drama survival leonardo dicaprio tom hardy alejandro inarritu
+70,Birdman,comedy drama theater single-take michael keaton edward norton alejandro inarritu
+71,La La Land,romance drama musical hollywood ryan gosling emma stone damien chazelle
+72,Spider-Man Into the Spider-Verse,animation action superhero comic miles morales multiverse shameik moore
+73,Spider-Man Across the Spider-Verse,animation action superhero comic miles morales multiverse shameik moore hailee steinfeld
+74,Black Panther,action marvel comics superhero wakanda chadwick boseman michael b jordan ryan coogler
+75,Captain America The Winter Soldier,action marvel comics superhero spy chris evans scarlett johansson russo brothers
+76,Guardians of the Galaxy,sci-fi action space comedy marvel comics chris pratt zoe saldana james gunn
+77,Joker,drama crime psychological madness dc comics joaquin phoenix robert de niro todd phillips
+78,The Batman,action crime mystery dc comics superhero robert pattinson zoe kravitz matt reeves
+79,Logan,action superhero comic wolverine x-men hugh jackman patrick stewart james mangold
+80,Deadpool,action comedy superhero comic ryan reynolds morena baccarin tim miller
+81,Everything Everywhere All at Once,sci-fi comedy action multiverse family michelle yeoh ke huy quan daniels
+82,Get Out,horror mystery thriller racism jordan peele daniel kaluuya allison williams
+83,Us,horror mystery thriller doppelganger jordan peele lupita nyongo winston duke
+84,Nope,horror sci-fi ufo alien jordan peele daniel kaluuya keke palmer
+85,Knives Out,mystery comedy crime whodunit daniel craig chris evans rian johnson
+86,Glass Onion,mystery comedy crime whodunit daniel craig edward norton rian johnson
+87,Baby Driver,action crime music car-chase edgarth wright ansel elgort kevin spacey
+88,Shaun of the Dead,comedy horror zombie parody edgar wright simon pegg nick frost
+89,Hot Fuzz,comedy action buddy-cop edgar wright simon pegg nick frost
+90,The Truman Show,comedy drama simulation reality-tv jim carrey laura linney peter weir
+91,Eternal Sunshine of the Spotless Mind,romance sci-fi drama memory jim carrey kate winslet michel gondry
+92,No Country for Old Men,crime thriller western coen brothers javier bardem josh brolin
+93,Fargo,crime drama comedy snow coen brothers frances mcdormand william h macy
+94,The Big Lebowski,comedy crime bowling dude coen brothers jeff bridges john goodman
+95,Primal Fear,mystery thriller court crime richard gere edward norton gregory hoblit
+96,The Sixth Sense,mystery thriller supernatural ghost bruce willis haley joel osment m night shyamalan
+97,Signs,sci-fi thriller alien crop-circles mel gibson joaquin phoenix m night shyamalan
+98,Unbreakable,sci-fi thriller superhero comic bruce willis samuel l jackson m night shyamalan
+99,Split,thriller horror psychological multiple-personalities james mcavoy anya taylor-joy m night shyamalan
+100,Prisoners,mystery thriller crime kidnapping hugh jackman jake gyllenhaal denis villeneuve
+101,Nightcrawler,thriller crime journalism dark jake gyllenhaal rene russo dan gilroy
+102,Drive,action crime thriller stuntman ryan gosling carey mulligan nicolas winding refn
+103,Her,romance sci-fi ai love joaquin phoenix scarlett johansson spike jonze
+104,Ex Machina,sci-fi thriller robot ai domhnall gleeson oscar isaac alicia vikander alex garland
+105,Annihilation,sci-fi horror alien jungle natalie portman jennifer jason leigh alex garland
+106,A Quiet Place,horror sci-fi monsters sound survival john krasinski emily blunt
+107,Hereditary,horror mystery drama family curse ari aster toni collette alex wolff
+108,Midsommar,horror drama cult sweden daylight ari aster florence pugh jack reynor
+109,The Witch,horror mystery folk-tale witchcraft anya taylor-joy robert eggers
+110,The Lighthouse,horror drama mystery madness robert pattinson willem dafoe robert eggers
+111,Black Swan,drama thriller ballet psychological natalie portman mila kunis darren aronofsky
+112,Requiem for a Dream,drama addiction tragic jared leto jennifer connelly darren aronofsky
+113,Monsters Inc,animation family pixar monsters john goodman billy crystal pete docter
+114,Up,animation family pixar adventure house balloons pete docter ed asner
+115,Inside Out,animation family pixar emotions joy sadness pete docter amy poehler
+116,Coco,animation family pixar music mexico skeletons lee unkrich anthony gonzalez
+117,Wall-E,animation family pixar sci-fi space robot andrew stanton ben burtt
+118,The Incredibles,animation family superhero action pixar brad bird craig t nelson
+119,Ratatouille,animation family pixar cooking paris brad bird patton oswalt
+120,My Neighbor Totoro,animation fantasy anime studio ghibli forest hayao miyazaki
+121,Princess Mononoke,animation fantasy anime studio ghibli nature war hayao miyazaki
+122,Howls Moving Castle,animation fantasy anime studio ghibli magic hayao miyazaki chieko baisho
+123,Your Name,animation romance fantasy anime body-swap makoto shinkai ryunosuke kamiki
+124,Shrek,animation comedy family fairytale ogre mike myers eddie murphy andrew adamson
+125,Kung Fu Panda,animation action comedy martial arts jack black dustin hoffman john stevenson
+126,How to Train Your Dragon,animation action adventure dragons vikings jay baruchel gerard butler
+127,The Terminator,sci-fi action robot cyborg time travel arnold schwarzenegger james cameron
+128,Terminator 2 Judgment Day,sci-fi action robot cyborg war arnold schwarzenegger james cameron
+129,Die Hard,action thriller skyscraper terrorists bruce willis alan rickman john mctiernan
+130,Mad Max 2 The Road Warrior,action sci-fi post-apocalyptic desert mel gibson george miller
+131,Speed,action thriller bus bomb keanu reeves sandra bullock jan de bont
+132,The Bourne Identity,action thriller spy amnesia matt damon franka potente doug liman
+133,Mission Impossible Fallout,action thriller spy stunt tom cruise henry cavill christopher mcquarrie
+134,John Wick,action crime revenge assassin keanu reeves michael nyqvist chad stahelski
+135,Casino Royale,action thriller spy james bond daniel craig eva green martin campbell
+136,Skyfall,action thriller spy james bond daniel craig javier bardem sam mendes
+137,Heat,action crime drama heist robert de niro al pacino michael mann
+138,The Usual Suspects,crime mystery thriller twist keyser soze bryan singer kevin spacey
+139,Reservoir Dogs,crime thriller diamond heist quentin tarantino harvey keitel tim roth
+140,Scarface,crime drama mafia drugs al pacino michelle pfeiffer brian de palma
+141,Good Will Hunting,drama math psychology boston matt damon robin williams gus van sant
+142,Dead Poets Society,drama school poetry inspirational robin williams ethan hawke peter weir
+143,The Truman Show,drama comedy media paranoia jim carrey ed harris peter weir
+144,A Beautiful Mind,biography drama math schizophrenia russell crowe ed harris ron howard
+145,The King Speech,biography drama history king speech colin firth geoffrey rush tom hooper
+146,12 Years a Slave,biography drama history slavery steve mcqueen chiwetel ejiofor michael fassbender
+147,Spotlight,biography drama crime journalism mark ruffalo michael keaton tom mccarthy
+148,Green Book,biography comedy drama road-trip viggo mortensen mahershala ali peter farrelly
+149,Bohemian Rhapsody,biography drama music queen freddie mercury rami malek bryan singer
+150,Elvis,biography drama music rock-and-roll austin butler tom hanks baz luhrmann
+151,Superbad,comedy high-school friendship jonah hill michael cera greg mottola
+152,The Hangover,comedy vegas bachelor-party missing-person todd phillips bradley cooper zach galifianakis
+153,Step Brothers,comedy family adults man-child will ferrell john c reilly adam mckay
+154,Anchorman,comedy news 1970s will ferrell christina applegate adam mckay
+155,Zombieland,comedy horror zombie survival woody harrelson jesse eisenberg ruben fleischer
+156,Borat,comedy mockumentary satire sacha baron cohen larry charles
+157,The Notebook,romance drama ryan gosling rachel mcadams nick cassavetes
+158,Pride and Prejudice,romance drama period-piece keira knightley matthew macfadyen joe wright
+159,About Time,romance comedy sci-fi time travel domhnall gleeson rachel mcadams richard curtis
+160,500 Days of Summer,romance comedy drama non-linear joseph gordon-levitt zooey deschanel marc webb
+161,The Conjuring,horror mystery supernatural demon james wan patrick wilson vera farmiga
+162,Insidious,horror mystery supernatural astral-projection james wan patrick wilson rose byrne
+163,Sinister,horror mystery thriller cursed tapes ethan hawke scott derrickson
+164,It,horror supernatural clown stephen king bill skarsgard andy muschietti
+165,Get Out,horror mystery thriller social-commentary jordan peele daniel kaluuya
+166,Halloween,horror slasher serial killer michael myers john carpenter jamie lee curtis
+167,A Nightmare on Elm Street,horror slasher dreams freddy krueger wes craven robert englund
+168,Scream,horror slasher mystery parody ghostface wes craven neve campbell courtney cox
+169,The Texas Chain Saw Massacre,horror slasher chainsaw leatherface tobe hooper marilyn burns
+170,The Exorcist,horror supernatural demon possession william friedkin ellen burstyn max von sydow
+171,Barbie,comedy fantasy pastel feminism margot robbie ryan gosling greta gerwig
+172,Little Women,drama romance period-piece saoirse ronan emma watson greta gerwig
+173,Lady Bird,drama comedy coming-of-age saoirse ronan laurie metcalf greta gerwig
+174,Knives Out,mystery comedy whodunit daniel craig ana de armas rian johnson
+175,The Menu,thriller horror comedy cooking island anya taylor-joy ralph fiennes mark mylod
+176,Pearl,horror slasher madness 1918 mia goth ti west
+177,X,horror slasher 1970s movie-crew mia goth ti west
+178,MaXXXine,horror thriller slasher hollywood 1980s mia goth ti west
+179,Civil War,action thriller war dystopia alex garland kirsten dunst wagner moura
+180,Kingdom of the Planet of the Apes,sci-fi action apes future wes ball owen teague freya allan
+181,Poor Things,comedy sci-fi romance bizarre yorgos lanthimos emma stone mark ruffalo
+182,The Favorite,comedy drama history queen yorgos lanthimos olivia colman emma stone
+183,Parasite,thriller drama societal bong joon ho song kang ho
+184,The Zone of Interest,drama war history holocaust jonathan glazer christian friedel
+185,Anatomy of a Fall,mystery drama crime court justine triet sandra huller
+186,Past Lives,romance drama destiny childhood-sweethearts celine song greta lee teo yoo
+187,The Batman,action crime superhero dc comics robert pattinson matt reeves
+188,Top Gun Maverick,action drama jet aviation tom cruise miles teller joseph kosinski
+189,Avatar The Way of Water,sci-fi action ocean pandora james cameron sam worthington zoe saldana
+190,Dunkirk,war action history world war ii christopher nolan fionn whitehead tom hardy
+191,1917,war action drama world war i single-shot sam mendes george mckay dean-charles chapman
+192,Ford v Ferrari,biography action drama racing matt damon christian bale james mangold
+193,Jojo Rabbit,comedy drama war world war ii taika waititi roman griffin davis scarlett johansson
+194,Thor Ragnarok,action adventure comedy superhero marvel comics chris hemsworth tom hiddleston taika waititi
+195,Spider-Man Homecoming,action superhero comic marvel comics tom holland robert downey jr jon watts
+196,Spider-Man Far From Home,action superhero comic marvel comics tom holland zendaya jon watts
+197,Whiplash,drama music obsession jazz miles teller damien chazelle
+198,Babylon,drama comedy history hollywood brad pitt margot robbie damien chazelle
+199,La La Land,romance musical hollywood ryan gosling emma stone damien chazelle
+200,The IrishMan,crime drama biography mafia robert de niro al pacino martin scorsese
+movie_id,title,tags
+1,The Dark Knight,action dc comics superhero batman dark gritty trilogy christian bale christopher nolan
+2,Interstellar,sci-fi space time travel christopher nolan space exploration matthew mcconaughey anne hathaway
+3,Batman Begins,action dc comics superhero batman origin christian bale christopher nolan liam neeson
+4,Inception,sci-fi dreams heist mind-bending christopher nolan leonardo dicaprio joseph gordon-levitt
+5,The Martian,sci-fi space mars survival matt damon space exploration ridley scott jessica chastain
+6,The Prestige,drama mystery magic illusion christopher nolan christian bale hugh jackman scarlett johansson
+7,The Avengers,action marvel comics superhero iron man captain america thor hulk joss whedon robert downey jr
+8,Iron Man,action marvel comics superhero iron man origin robert downey jr jon favreau gwyneth paltrow
+9,Spiderman No Way Home,action marvel comics superhero spider-man multiverse tom holland zendaya benedict cumberbatch
+10,The Matrix,sci-fi cyberpunk simulation action keanu reeves lana wachowski wachowskis laurence fishburne
+11,Avatar,sci-fi alien planet pandora action james cameron sam worthington zoe saldana
+12,Titanic,romance drama ship disaster leonardo dicaprio kate winslet james cameron
+13,Gladiator,action historical drama rome ridley scott russell crowe joaquin phoenix
+14,Pulp Fiction,crime drama nonlinear quentin tarantino john travolta uma thurman samuel l jackson
+15,The Godfather,crime drama mafia marlon brando al pacino francis ford coppola
+16,Spirited Away,animation fantasy anime studio ghibli hayao miyazaki chihiro haku
+17,Toy Story,animation family pixar toys woody buzz lightyear tom hanks tim allen
+18,Finding Nemo,animation family pixar ocean fish marlin dory ellen degeneres
+19,The Lion King,animation family disney africa simba mufasa scar johnny nolan
+20,Whiplash,drama music jazz drumming miles teller jk simmons damien chazelle
+21,The Dark Knight Rises,action dc comics superhero batman bane tom hardy christian bale christopher nolan
+22,Oppenheimer,biography drama history atomic bomb physics cillian murphy robert downey jr christopher nolan
+23,Dune,sci-fi space desert planet paul atreides denis villeneuve timothee chalamet zendaya
+24,Dune Part Two,sci-fi space war desert paul atreides denis villeneuve timothee chalamet zendaya rebecca ferguson
+25,Blade Runner 2049,sci-fi cyberpunk replicant dystopia ryan gosling harrison ford denis villeneuve
+26,Arrival,sci-fi aliens language communication amy adams jeremy renner denis villeneuve
+27,Sicario,crime action thriller drug cartel emily blunt benicio del toro denis villeneuve
+28,Zodiac,mystery thriller crime serial killer jake gyllenhaal robert downey jr david fincher
+29,Se7en,mystery thriller crime serial killer brad pitt morgan freeman david fincher
+30,Fight Club,drama psychological twist separation brad pitt edward norton david fincher
+31,The Social Network,biography drama facebook tech mark zuckerberg jesse eisenberg david fincher
+32,Gone Girl,mystery thriller drama marriage twist ben affleck rosamund pike david fincher
+33,Django Unchained,western action drama slavery revenge jamie foxx christoph waltz quentin tarantino
+34,Inglourious Basterds,war action drama world war ii brad pitt christoph waltz quentin tarantino
+35,Kill Bill Vol 1,action crime revenge martial arts uma thurman quentin tarantino
+36,Once Upon a Time in Hollywood,comedy drama nostalgia leonardo dicaprio brad pitt margot robbie quentin tarantino
+37,The Wolf of Wall Street,biography comedy crime stocks money leonardo dicaprio jonah hill martin scorsese
+38,Goodfellas,crime drama mafia raye liotta robert de niro joe pesci martin scorsese
+39,The Departed,crime drama thriller undercover cop leonardo dicaprio matt damon jack nicholson martin scorsese
+40,Shutter Island,mystery thriller psychological asylum leonardo dicaprio mark ruffalo martin scorsese
+41,The Godfather Part II,crime drama mafia ryan gosling al pacino robert de niro francis ford coppola
+42,Apocalypse Now,war drama vietnam harrison ford marlon brando francis ford coppola
+43,Star Wars A New Hope,sci-fi space opera jedi empire george lucas mark hamill harrison ford
+44,Star Wars The Empire Strikes Back,sci-fi space opera jedi darth vader mark hamill harrison ford carrie fisher
+45,Star Wars Return of the Jedi,sci-fi space opera jedi death star george lucas mark hamill harrison ford
+46,Jurassic Park,sci-fi adventure dinosaurs theme park steven spielberg sam neill laura dern
+47,Schindlers List,biography drama history holocaust world war ii steven spielberg liam neeson
+48,Saving Private Ryan,war drama world war ii d-day steven spielberg tom hanks matt damon
+49,Catch Me If You Can,biography crime drama con artist leonardo dicaprio tom hanks steven spielberg
+50,Raiders of the Lost Ark,adventure action archeology indiana jones harrison ford steven spielberg
+51,The Shawshank Redemption,drama prison hope friendship morgan freeman tim robbins frank darabont
+52,Forrest Gump,drama romance history tom hanks robin wright robert zemeckis
+53,Back to the Future,sci-fi comedy time travel michael j fox christopher lloyd robert zemeckis
+54,The Green Mile,content drama prison supernatural stephen king tom hanks michael clarke duncan
+55,The Silence of the Lambs,horror thriller crime hannibal lecter jodie foster anthony hopkins jonathan demme
+56,Gladiator II,action historical drama rome war paul mescal pedro pascal ridley scott
+57,Alien,horror sci-fi space monster spaceship sigourney weaver ridley scott
+58,Blade Runner,sci-fi cyberpunk dystopia replicant harrison ford ridley scott
+59,Prometheus,sci-fi space alien origin spaceship ryan gosling ridley scott
+60,The Lord of the Rings The Fellowship of the Ring,fantasy adventure quest ring frodo peter jackson elijah wood ian mckellen
+61,The Lord of the Rings The Two Towers,fantasy adventure war ring battle peter jackson elijah wood viggo mortensen
+62,The Lord of the Rings The Return of the King,fantasy adventure war king ring peter jackson elijah wood viggo mortensen
+63,The Hobbit An Unexpected Journey,fantasy adventure quest dwarfs bilbo peter jackson martin freeman
+64,The Grand Budapest Hotel,comedy drama hotel quirks wes anderson ralph fiennes saoirse ronan
+65,Fantastic Mr Fox,animation comedy stop-motion animals wes anderson george clooney
+66,Parasite,thriller drama comedy dark class-conflict bong joon ho song kang ho
+67,Snowpiercer,sci-fi action dystopia train ice bong joon ho chris evans
+68,Mad Max Fury Road,action sci-fi post-apocalyptic desert car-chase tom hardy charlize theron george miller
+69,The Revenant,adventure biography drama survival leonardo dicaprio tom hardy alejandro inarritu
+70,Birdman,comedy drama theater single-take michael keaton edward norton alejandro inarritu
+71,La La Land,romance drama musical hollywood ryan gosling emma stone damien chazelle
+72,Spider-Man Into the Spider-Verse,animation action superhero comic miles morales multiverse shameik moore
+73,Spider-Man Across the Spider-Verse,animation action superhero comic miles morales multiverse shameik moore hailee steinfeld
+74,Black Panther,action marvel comics superhero wakanda chadwick boseman michael b jordan ryan coogler
+75,Captain America The Winter Soldier,action marvel comics superhero spy chris evans scarlett johansson russo brothers
+76,Guardians of the Galaxy,sci-fi action space comedy marvel comics chris pratt zoe saldana james gunn
+77,Joker,drama crime psychological madness dc comics joaquin phoenix robert de niro todd phillips
+78,The Batman,action crime mystery dc comics superhero robert pattinson zoe kravitz matt reeves
+79,Logan,action superhero comic wolverine x-men hugh jackman patrick stewart james mangold
+80,Deadpool,action comedy superhero comic ryan reynolds morena baccarin tim miller
+81,Everything Everywhere All at Once,sci-fi comedy action multiverse family michelle yeoh ke huy quan daniels
+82,Get Out,horror mystery thriller racism jordan peele daniel kaluuya allison williams
+83,Us,horror mystery thriller doppelganger jordan peele lupita nyongo winston duke
+84,Nope,horror sci-fi ufo alien jordan peele daniel kaluuya keke palmer
+85,Knives Out,mystery comedy crime whodunit daniel craig chris evans rian johnson
+86,Glass Onion,mystery comedy crime whodunit daniel craig edward norton rian johnson
+87,Baby Driver,action crime music car-chase edgarth wright ansel elgort kevin spacey
+88,Shaun of the Dead,comedy horror zombie parody edgar wright simon pegg nick frost
+89,Hot Fuzz,comedy action buddy-cop edgar wright simon pegg nick frost
+90,The Truman Show,comedy drama simulation reality-tv jim carrey laura linney peter weir
+91,Eternal Sunshine of the Spotless Mind,romance sci-fi drama memory jim carrey kate winslet michel gondry
+92,No Country for Old Men,crime thriller western coen brothers javier bardem josh brolin
+93,Fargo,crime drama comedy snow coen brothers frances mcdormand william h macy
+94,The Big Lebowski,comedy crime bowling dude coen brothers jeff bridges john goodman
+95,Primal Fear,mystery thriller court crime richard gere edward norton gregory hoblit
+96,The Sixth Sense,mystery thriller supernatural ghost bruce willis haley joel osment m night shyamalan
+97,Signs,sci-fi thriller alien crop-circles mel gibson joaquin phoenix m night shyamalan
+98,Unbreakable,sci-fi thriller superhero comic bruce willis samuel l jackson m night shyamalan
+99,Split,thriller horror psychological multiple-personalities james mcavoy anya taylor-joy m night shyamalan
+100,Prisoners,mystery thriller crime kidnapping hugh jackman jake gyllenhaal denis villeneuve
+101,Nightcrawler,thriller crime journalism dark jake gyllenhaal rene russo dan gilroy
+102,Drive,action crime thriller stuntman ryan gosling carey mulligan nicolas winding refn
+103,Her,romance sci-fi ai love joaquin phoenix scarlett johansson spike jonze
+104,Ex Machina,sci-fi thriller robot ai domhnall gleeson oscar isaac alicia vikander alex garland
+105,Annihilation,sci-fi horror alien jungle natalie portman jennifer jason leigh alex garland
+106,A Quiet Place,horror sci-fi monsters sound survival john krasinski emily blunt
+107,Hereditary,horror mystery drama family curse ari aster toni collette alex wolff
+108,Midsommar,horror drama cult sweden daylight ari aster florence pugh jack reynor
+109,The Witch,horror mystery folk-tale witchcraft anya taylor-joy robert eggers
+110,The Lighthouse,horror drama mystery madness robert pattinson willem dafoe robert eggers
+111,Black Swan,drama thriller ballet psychological natalie portman mila kunis darren aronofsky
+112,Requiem for a Dream,drama addiction tragic jared leto jennifer connelly darren aronofsky
+113,Monsters Inc,animation family pixar monsters john goodman billy crystal pete docter
+114,Up,animation family pixar adventure house balloons pete docter ed asner
+115,Inside Out,animation family pixar emotions joy sadness pete docter amy poehler
+116,Coco,animation family pixar music mexico skeletons lee unkrich anthony gonzalez
+117,Wall-E,animation family pixar sci-fi space robot andrew stanton ben burtt
+118,The Incredibles,animation family superhero action pixar brad bird craig t nelson
+119,Ratatouille,animation family pixar cooking paris brad bird patton oswalt
+120,My Neighbor Totoro,animation fantasy anime studio ghibli forest hayao miyazaki
+121,Princess Mononoke,animation fantasy anime studio ghibli nature war hayao miyazaki
+122,Howls Moving Castle,animation fantasy anime studio ghibli magic hayao miyazaki chieko baisho
+123,Your Name,animation romance fantasy anime body-swap makoto shinkai ryunosuke kamiki
+124,Shrek,animation comedy family fairytale ogre mike myers eddie murphy andrew adamson
+125,Kung Fu Panda,animation action comedy martial arts jack black dustin hoffman john stevenson
+126,How to Train Your Dragon,animation action adventure dragons vikings jay baruchel gerard butler
+127,The Terminator,sci-fi action robot cyborg time travel arnold schwarzenegger james cameron
+128,Terminator 2 Judgment Day,sci-fi action robot cyborg war arnold schwarzenegger james cameron
+129,Die Hard,action thriller skyscraper terrorists bruce willis alan rickman john mctiernan
+130,Mad Max 2 The Road Warrior,action sci-fi post-apocalyptic desert mel gibson george miller
+131,Speed,action thriller bus bomb keanu reeves sandra bullock jan de bont
+132,The Bourne Identity,action thriller spy amnesia matt damon franka potente doug liman
+133,Mission Impossible Fallout,action thriller spy stunt tom cruise henry cavill christopher mcquarrie
+134,John Wick,action crime revenge assassin keanu reeves michael nyqvist chad stahelski
+135,Casino Royale,action thriller spy james bond daniel craig eva green martin campbell
+136,Skyfall,action thriller spy james bond daniel craig javier bardem sam mendes
+137,Heat,action crime drama heist robert de niro al pacino michael mann
+138,The Usual Suspects,crime mystery thriller twist keyser soze bryan singer kevin spacey
+139,Reservoir Dogs,crime thriller diamond heist quentin tarantino harvey keitel tim roth
+140,Scarface,crime drama mafia drugs al pacino michelle pfeiffer brian de palma
+141,Good Will Hunting,drama math psychology boston matt damon robin williams gus van sant
+142,Dead Poets Society,drama school poetry inspirational robin williams ethan hawke peter weir
+143,The Truman Show,drama comedy media paranoia jim carrey ed harris peter weir
+144,A Beautiful Mind,biography drama math schizophrenia russell crowe ed harris ron howard
+145,The King Speech,biography drama history king speech colin firth geoffrey rush tom hooper
+146,12 Years a Slave,biography drama history slavery steve mcqueen chiwetel ejiofor michael fassbender
+147,Spotlight,biography drama crime journalism mark ruffalo michael keaton tom mccarthy
+148,Green Book,biography comedy drama road-trip viggo mortensen mahershala ali peter farrelly
+149,Bohemian Rhapsody,biography drama music queen freddie mercury rami malek bryan singer
+150,Elvis,biography drama music rock-and-roll austin butler tom hanks baz luhrmann
+151,Superbad,comedy high-school friendship jonah hill michael cera greg mottola
+152,The Hangover,comedy vegas bachelor-party missing-person todd phillips bradley cooper zach galifianakis
+153,Step Brothers,comedy family adults man-child will ferrell john c reilly adam mckay
+154,Anchorman,comedy news 1970s will ferrell christina applegate adam mckay
+155,Zombieland,comedy horror zombie survival woody harrelson jesse eisenberg ruben fleischer
+156,Borat,comedy mockumentary satire sacha baron cohen larry charles
+157,The Notebook,romance drama ryan gosling rachel mcadams nick cassavetes
+158,Pride and Prejudice,romance drama period-piece keira knightley matthew macfadyen joe wright
+159,About Time,romance comedy sci-fi time travel domhnall gleeson rachel mcadams richard curtis
+160,500 Days of Summer,romance comedy drama non-linear joseph gordon-levitt zooey deschanel marc webb
+161,The Conjuring,horror mystery supernatural demon james wan patrick wilson vera farmiga
+162,Insidious,horror mystery supernatural astral-projection james wan patrick wilson rose byrne
+163,Sinister,horror mystery thriller cursed tapes ethan hawke scott derrickson
+164,It,horror supernatural clown stephen king bill skarsgard andy muschietti
+165,Get Out,horror mystery thriller social-commentary jordan peele daniel kaluuya
+166,Halloween,horror slasher serial killer michael myers john carpenter jamie lee curtis
+167,A Nightmare on Elm Street,horror slasher dreams freddy krueger wes craven robert englund
+168,Scream,horror slasher mystery parody ghostface wes craven neve campbell courtney cox
+169,The Texas Chain Saw Massacre,horror slasher chainsaw leatherface tobe hooper marilyn burns
+170,The Exorcist,horror supernatural demon possession william friedkin ellen burstyn max von sydow
+171,Barbie,comedy fantasy pastel feminism margot robbie ryan gosling greta gerwig
+172,Little Women,drama romance period-piece saoirse ronan emma watson greta gerwig
+173,Lady Bird,drama comedy coming-of-age saoirse ronan laurie metcalf greta gerwig
+174,Knives Out,mystery comedy whodunit daniel craig ana de armas rian johnson
+175,The Menu,thriller horror comedy cooking island anya taylor-joy ralph fiennes mark mylod
+176,Pearl,horror slasher madness 1918 mia goth ti west
+177,X,horror slasher 1970s movie-crew mia goth ti west
+178,MaXXXine,horror thriller slasher hollywood 1980s mia goth ti west
+179,Civil War,action thriller war dystopia alex garland kirsten dunst wagner moura
+180,Kingdom of the Planet of the Apes,sci-fi action apes future wes ball owen teague freya allan
+181,Poor Things,comedy sci-fi romance bizarre yorgos lanthimos emma stone mark ruffalo
+182,The Favorite,comedy drama history queen yorgos lanthimos olivia colman emma stone
+183,Parasite,thriller drama societal bong joon ho song kang ho
+184,The Zone of Interest,drama war history holocaust jonathan glazer christian friedel
+185,Anatomy of a Fall,mystery drama crime court justine triet sandra huller
+186,Past Lives,romance drama destiny childhood-sweethearts celine song greta lee teo yoo
+187,The Batman,action crime superhero dc comics robert pattinson matt reeves
+188,Top Gun Maverick,action drama jet aviation tom cruise miles teller joseph kosinski
+189,Avatar The Way of Water,sci-fi action ocean pandora james cameron sam worthington zoe saldana
+190,Dunkirk,war action history world war ii christopher nolan fionn whitehead tom hardy
+191,1917,war action drama world war i single-shot sam mendes george mckay dean-charles chapman
+192,Ford v Ferrari,biography action drama racing matt damon christian bale james mangold
+193,Jojo Rabbit,comedy drama war world war ii taika waititi roman griffin davis scarlett johansson
+194,Thor Ragnarok,action adventure comedy superhero marvel comics chris hemsworth tom hiddleston taika waititi
+195,Spider-Man Homecoming,action superhero comic marvel comics tom holland robert downey jr jon watts
+196,Spider-Man Far From Home,action superhero comic marvel comics tom holland zendaya jon watts
+197,Whiplash,drama music obsession jazz miles teller damien chazelle
+198,Babylon,drama comedy history hollywood brad pitt margot robbie damien chazelle
+199,La La Land,romance musical hollywood ryan gosling emma stone damien chazelle
+200,The IrishMan,crime drama biography mafia robert de niro al pacino martin scorsese
