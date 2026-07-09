@@ -52,7 +52,15 @@ Similarity Calculation: Applying the cosine similarity formula to measure the di
 
 
 
+
+
+
+
 \text{similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
+
+
+
+
 
 
 
