@@ -2,43 +2,42 @@ import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-# 1. Create a mock dataset (Replace this later with your actual dataset)
-movies_data = {
-    'movie_id': [1, 2, 3, 4],
-    'title': ['The Dark Knight', 'Interstellar', 'Batman Begins', 'Inception'],
-    'tags': [
-        'action dc comics superhero batman dark gritty',
-        'sci-fi space time travel Christopher Nolan',
-        'action dc comics superhero batman origin',
-        'sci-fi dreams heist mind-bending Christopher Nolan'
-    ]
-}
+# 1. Load the dataset from the CSV file
+df = pd.read_csv('movies.csv')
 
-df = pd.DataFrame(movies_data)
-
-# 2. Convert text tags into a matrix of token counts (Vectorization)
+# 2. Vectorize the tags (This builds the vocabulary grid)
 cv = CountVectorizer(stop_words='english')
 count_matrix = cv.fit_transform(df['tags'])
 
-# 3. Calculate the Cosine Similarity Matrix based on the formula
-similarity = cosine_similarity(count_matrix)
-
-# 4. Recommendation Function
+# 3. Recommendation Function (Optimized for scale)
 def recommend(movie_title):
-    # Find the index of the movie that matches the title
-    movie_idx = df[df['title'] == movie_title].index[0]
+    movie_title_clean = movie_title.strip().lower()
+    titles_lower = df['title'].str.lower().str.strip()
     
-    # Get pairwise similarity scores of all movies with that movie
-    distances = similarity[movie_idx]
+    if movie_title_clean not in titles_lower.values:
+        print(f"❌ Movie '{movie_title}' not found.")
+        return
     
-    # Sort the movies based on similarity scores
-    # (returns tuples of (index, similarity_score))
-    movies_list = sorted(list(enumerate(distances)), reverse=True, key=lambda x: x[1])[1:]
+    # Find the index of the movie
+    movie_idx = df[titles_lower == movie_title_clean].index[0]
     
-    print(f"Recommendations for '{movie_title}':")
+    # Extract only the single vector for our selected movie to save RAM
+    selected_movie_vector = count_matrix[movie_idx]
+    
+    # Compute similarity for just this movie against all others on-the-fly
+    similarity_scores = cosine_similarity(selected_movie_vector, count_matrix).flatten()
+    
+    # Sort and grab top 5 closest matches (excluding the movie itself)
+    movies_list = sorted(list(enumerate(similarity_scores)), reverse=True, key=lambda x: x[1])[1:6]
+    
+    print(f"🎬 Recommendations for '{df.iloc[movie_idx]['title']}':")
     for i in movies_list:
-        print(f"- {df.iloc[i[0]]['title']} (Score: {round(i[1], 2)})")
+        match_percentage = round(i[1] * 100)
+        if match_percentage > 0:
+            print(f"  -> {df.iloc[i[0]]['title']} ({match_percentage}% Match)")
 
-# Test the system!
-recommend('The Dark Knight')
-
+if __name__ == '__main__':
+    print("--- Testing Scalable Movie Recommendation System ---\n")
+    # Test with a movie from your new 200-movie list
+    recommend('Interstellar')
+    
