@@ -1,4 +1,4 @@
-🎬 Movie Recommendation System
+# 🎬 Movie Recommendation System #
 
 A machine learning-powered movie recommendation system that leverages Cosine Similarity to provide personalized movie suggestions based on content features. Built with Python and deployed with an interactive Streamlit interface.
 
